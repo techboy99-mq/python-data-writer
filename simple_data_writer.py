@@ -1,5 +1,4 @@
 import http.server
-import mysql.connector
 import argparse
 import sys
 import json
@@ -8,14 +7,13 @@ import re
 import socket
 from urllib.parse import urlparse
 from datetime import datetime
+import mysql.connector
 
 # -----------------------------
 # Config
 # -----------------------------
 AUTH_TOKEN = "secure_token_here"
 CSV_FILE_PATH = "name_of_csv_file_here.csv"
-
-hostname = socket.gethostname()
 LOG_FILE_PATH = f"path_to_log_file/{hostname}_data_writer.log"
 
 DB_CONFIG = {
