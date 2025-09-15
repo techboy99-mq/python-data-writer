@@ -14,6 +14,8 @@ import mysql.connector
 # -----------------------------
 AUTH_TOKEN = "secure_token_here"
 CSV_FILE_PATH = "name_of_csv_file_here.csv"
+
+hostname = socket.gethostname()  # Gets the machine hostname
 LOG_FILE_PATH = f"path_to_log_file/{hostname}_data_writer.log"
 
 DB_CONFIG = {
