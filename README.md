@@ -1,4 +1,7 @@
-Start Python HTTP Data Writer Server: python3 simple_data_writer.py
+Start Python HTTP Data Writer Server: 
+
+python3 simple_data_writer.py
+
 
 Write data to the Python HTTP CSV Server with the following:
 
